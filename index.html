@@ -1,0 +1,100 @@
+<!-- <!DOCTYPE html> -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font Pacifico -->
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font PT Sans Caption -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Sans+Caption:wght@400;700&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font Bree Serif -->
+
+    <!-- ============= Font Awesome ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <header
+      class="vh-100 w-100 d-flex flex-column justify-content-center align-items-center"
+    >
+      <div
+        class="container d-flex flex-column justify-content-center align-items-center"
+      >
+        <div class="login-form w-40 w-form bg-light p-3 rounded-3">
+          <h2 class="text-center pb-5 pt-2 fw-bold h1">Sign UP</h2>
+          <div class="input-box">
+            <input
+              type="text"
+              id="userName"
+              placeholder="Usename "
+              class="w-100  rounded-5 px-4 py-3 mb-3  form-control "
+              oninput="validateInput(this)"
+
+            />
+            <input
+              type="email"
+              id="userEmail"
+              placeholder="Email "
+              class="w-100  rounded-5 px-4 py-3 mb-3 form-control "
+              oninput="validateInput(this)"
+
+            />
+            <input
+              type="password"
+              id="userPassword"
+              placeholder="Password "
+              class="w-100  rounded-5 px-4 py-3 mb-3 form-control"
+              oninput="validateInput(this)"
+
+            />
+          </div>
+          <div id="popAlert" class="text-danger text-center py-2"></div>
+          <div id="popSucess" class="text-success text-center py-2">
+          </div>
+          <div class="input-info text-center fw-medium">
+            <label>
+              <input type="checkbox" class="mt-2" /> I agree to the terms &
+              conditions</label
+            >
+          </div>
+          <button
+            class="fw-medium border-0 px-5 py-3 my-3 mx-auto d-block rounded-5"
+          >
+            <a href="#" class="text-decoration-none fw-medium" id="siginBtn">Sign Up </a>
+          </button>
+          <div class="footer-form text-center fw-medium">
+            <p>
+              You have an account ?
+              <a
+                href="./login.html"
+                class="text-decoration-none"
+                
+                >Login</a
+              >
+            </p>
+          </div>
+        </div>
+        </div>
+    </header>
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/index.js"></script>
+  </body>
+</html>

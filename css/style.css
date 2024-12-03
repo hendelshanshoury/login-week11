@@ -1,0 +1,56 @@
+/* font-family: "Pacifico", serif; */
+/* font-family: "PT Sans Caption", sans-serif; */
+
+header{
+    background-image: linear-gradient(to top , #050C9C ,#3572EF ,#3ABEF9, #A7E6FF);
+    height: 100vh;
+    width: 100%;
+}
+.w-40{
+    width: 40%;
+}
+@media (min-width:769px) and (max-width:992px) {
+    .w-form{
+        width: 60%;
+    }
+    
+}
+@media (max-width:768px) {
+    .w-form{
+        width: 80%;
+    }
+    
+}
+
+.input-info .forget-pass{
+    text-decoration: none;
+    color: black;
+}
+.input-info .forget-pass:hover{
+    text-decoration: underline;
+    color: #3572EF;
+}
+
+#userEmail ,#userName , #userPassword{
+    border: none;
+    outline: none;
+}
+#userEmail:hover ,#userName:hover , #userPassword:hover{
+    border: none;
+    outline: none;
+}
+
+button{
+    /* background-color: #3572EF; */
+    background-image: linear-gradient(to top , #050C9C ,#3572EF ,#3ABEF9, #A7E6FF);
+}
+
+button a{
+    color:white ;
+}
+
+
+.navbar-toggler:focus{
+    box-shadow:none;
+    
+}
